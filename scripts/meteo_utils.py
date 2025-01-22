@@ -29,8 +29,12 @@ def load_weaclim4month (station_id, year, month, adress="http://www.pogodaiklima
         df = pd.concat([df0, df1], axis=1)
         df.columns = column_names
         
-        df['Datetime'] = pd.to_datetime((str(year)) + '.' + df['Дата'] + '.' + df['Время'],
-                                        format='%Y.%d.%m.%H')
+        try:
+            df['Datetime'] = pd.to_datetime((str(year)) + '.' + df['Дата'] + '.' + df['Время'],
+                                            format='%Y.%d.%m.%H')
+        except ValueError:
+            df['Datetime'] = pd.to_datetime((str(year)) + '.' + df['Дата'] + '.' + df['Время'],
+                                            format='%Y.%d.%m.%H:%M')
         df.drop(['Дата', 'Время'], axis=1, inplace=True)
         df.set_index('Datetime', inplace=True)
     except:
