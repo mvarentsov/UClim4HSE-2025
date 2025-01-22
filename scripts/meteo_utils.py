@@ -34,18 +34,18 @@ def load_weaclim4month (station_id, year, month, adress="http://www.pogodaiklima
         df.drop(['Дата', 'Время'], axis=1, inplace=True)
         df.set_index('Datetime', inplace=True)
     except:
-        raise Exception("Failed to process url: " + url)
+        raise Warning("Failed to process url: " + url)
 
     return df
 
-def load_weaclim4period (station_id, start, end, out_dir):
+def load_weaclim4period (station_id, start, end, out_dir, adress="http://www.pogodaiklimat.ru/weather.php?"):
     # out_dir = 'weaclim_data'
 
     os.makedirs(out_dir, exist_ok=True)
     station_dir = os.path.join(out_dir, f'{station_id}')
     os.makedirs(station_dir, exist_ok=True)
         
-    pbar = tqdm (list (rrule(MONTHLY, dtstart=start, until = end)), desc="Loading weaclim data for %d"%station_id)
+    pbar = tqdm (list (rrule(MONTHLY, dtstart=start, until = end)), desc="Loading weaclim data for %s"%str(station_id))
     for cur_date in pbar:
         
         pbar.set_postfix_str(f"Processing: {cur_date.strftime('%Y-%m')}")
@@ -60,7 +60,7 @@ def load_weaclim4period (station_id, start, end, out_dir):
             if mod_datetime - valid_datetime > timedelta(days=31):
                 continue
             
-        df = load_weaclim4month (station_id, cur_date.year, cur_date.month)
+        df = load_weaclim4month (station_id, cur_date.year, cur_date.month, adress=adress)
         df.to_csv(file_path)
 
 def read_weaclim_dir (path, return_raw = False):
@@ -108,7 +108,7 @@ def read_weaclim_dir (path, return_raw = False):
                 vel = float(parts[0])
             gust = float(parts[1].replace('{', '').replace('}', ''))
         else:
-            vel = float(parts[0])
+            vel = float(parts[0].replace('{', '').replace('}', ''))
 
         return vel, gust
 
