@@ -13,6 +13,7 @@
 |№| Дата | Тема | Материалы |
 |-| ---- | -----| --------- |
 |1| 15.01.2025| Введение в городскую метеорологию и климатологию |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture01%20slides.pdf)|
+|2| 22.01.2025| Мониторинг городского климат |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture02%20slides.pdf)</br>[Ноутбук (загрузка и чтение данных с сайта "Погода и климат")](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect02_load_weaclim_example.ipynb)|
 
 ## Домашние задания
 
@@ -22,6 +23,7 @@
 |№|Тип| Тема | Срок сдачи | Материалы |
 |-|---|----------|------------|---------- |
 |1|Эссе|Как знания об особенностях городского климата можно использовать для решения проблем населения и экономики?| 22.01.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW1.md) |
+|2|Практическая работа|Анализ данных метеорологического мониторинга для городов| 07.02.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW2.md) [Ноутбук (загрузка и чтение данных с сайта "Погода и климат")](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect02_load_weaclim_example.ipynb)|
 
 ## Рекомендуемая литература
 
