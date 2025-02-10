@@ -107,7 +107,10 @@ def read_weaclim_dir (path, return_raw = False):
         if len(parts) > 1:
             if '-' in parts[0]:
                 parts2 = parts[0].split('-')
-                vel = (float(parts2[0]) + float(parts2[1]))/2
+                try:
+                    vel = (float(parts2[0]) + float(parts2[1]))/2
+                except Exception as e:
+                    vel = np.nan 
             else:
                 vel = float(parts[0])
             gust = float(parts[1].replace('{', '').replace('}', ''))
@@ -144,7 +147,10 @@ def read_weaclim_dir (path, return_raw = False):
                 if cl_tot_str != '?':
                     cl_tot = float(cl_tot_str)
                 if cl_low_str != '?':
-                    cl_low = float(cl_low_str)
+                    try:
+                        cl_low = float(cl_low_str)
+                    except:
+                        cl_low = np.nan
             except:
                 raise Exception("Something wrong with cloudiness string: " + cl_str)
         else:
@@ -164,6 +170,7 @@ def read_weaclim_dir (path, return_raw = False):
     frame_sel = frame[['Т(С)', 'f(%)', 'P(гПа)', 'Po(гПа)']].copy()
     frame_sel.columns = ['t2m', 'rh2m', 'slp', 'ps']
 
+    
     frame_sel.loc[:, 'vel10m'], frame_sel.loc[:, 'gust10m'] = zip(*frame['Скорость ветра'].apply(process_wind_speed))
     frame_sel.loc[:, 'tcc'], frame_sel.loc[:, 'lcc'] = zip(*frame['Облачность'].apply(process_cloudiness))
     frame_sel.loc[:, 'dir10m'] = frame['Направление ветра'].apply(process_wind_direction)
