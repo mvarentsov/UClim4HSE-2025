@@ -14,7 +14,9 @@
 |-| ---- | -----| --------- |
 |1| 15.01.2025| Введение в городскую метеорологию и климатологию |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture01%20slides.pdf)|
 |2| 22.01.2025| Мониторинг городского климат |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture02%20slides.pdf)</br>[Ноутбук (загрузка и чтение данных с сайта "Погода и климат")](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect02_load_weaclim_example.ipynb)|
-|3| 29.01.2025| Технические средства анализа данных |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture02%20slides.pdf)</br>[Ноутбук (основы Python)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_python_demo.ipynb)</br>[Ноутбук (основы pandas)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_pandas_demo.ipynb)</br>[Ноутбук (работа в Google Colab)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_Colab_demo.ipynb)</br>[Видеозапись](https://disk.yandex.ru/i/jtVYuYzs40NazA)|
+|3| 29.01.2025| Технические средства анализа данных |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture03%20slides.pdf)</br>[Ноутбук (основы Python)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_python_demo.ipynb)</br>[Ноутбук (основы pandas)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_pandas_demo.ipynb)</br>[Ноутбук (работа в Google Colab)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_Colab_demo.ipynb)</br>[Видеозапись](https://disk.yandex.ru/i/jtVYuYzs40NazA)|
+|4| 04.02.2025| Современные подходы к моделированию погоды и климата|[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture04%20slides.pdf)</br>  [Ноутбук (реанализ и xarray)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect04_xarray_demo.ipynb)
+
 
 ## Домашние задания
 
@@ -25,6 +27,8 @@
 |-|---|----------|------------|---------- |
 |1|Эссе|Как знания об особенностях городского климата можно использовать для решения проблем населения и экономики?| 22.01.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW1.md) |
 |2|Практическая работа|Анализ данных метеорологического мониторинга для городов| 07.02.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW2.md) [Ноутбук (загрузка и чтение данных с сайта "Погода и климат")](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect02_load_weaclim_example.ipynb)|
+|3|Практическая работа|Aнализ низкоразрешенных данных моделирования| 14.02.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW3.md)</br>[Ноутбук (реанализ и xarray)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect04_xarray_demo.ipynb)|
+
 
 ## Рекомендуемая литература
 
