@@ -4,7 +4,7 @@
 
 Внимание: выполнение этой части задания предполагается на Google Colab с использованием рабочей папки на Google Drive (необходимо иметь аккаунт).  
 
-* Необходимо запустить скрипт сборки и запуска модели TEB [`Lect07_ERA5_to_TEB`](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_ERA5_to_TEB.ipynb) в Google Colab с использованием доступных по умолчанию данных для Москвы (`input_Moscow`), убедиться в его штатной работе. В ходе работы скрипта в вашем Google Drive будет создана директория `TEB_open_source_v3_sfx8.1_orig_namelist`, куда будет клонирован репозиторий. Рекомендуется скопировать ее содержимое в другую директорию и далее работать в ней.
+* Необходимо запустить скрипт сборки и запуска модели TEB [`Lect07_run_TEB`](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_run_TEB.ipynb) в Google Colab с использованием доступных по умолчанию данных для Москвы (`input_Moscow`), убедиться в его штатной работе. В ходе работы скрипта в вашем Google Drive будет создана директория `TEB_open_source_v3_sfx8.1_orig_namelist`, куда будет клонирован репозиторий. Рекомендуется скопировать ее содержимое в другую директорию и далее работать в ней.
 
 * На основе скачанных ранее для [ДЗ №3](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW3.md) данных реанализа ERA5 подготовить входные данные (метеорологический форсинг) для модели TEB для вашего города, используя скрипт [Lect07_ERA5_to_TEB](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_ERA5_to_TEB.ipynb). Полученные текстовые файлы с форсингом нужно скопировать в директорию модели на Google Drivе, например в директорию `input_MyCity`.
 
