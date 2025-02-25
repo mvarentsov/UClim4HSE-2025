@@ -6,6 +6,8 @@
 
 [Группа в Telegram](https://t.me/+YWkUTuRWIDBmNDEy)
 
+Предыдущие версии курса: [UClim4HSE-2024](https://github.com/mvarentsov/UClim4HSE-2024)
+
 -------
 
 ## Материалы по курсу
