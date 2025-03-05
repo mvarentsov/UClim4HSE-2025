@@ -15,12 +15,14 @@
 |№| Дата | Тема | Материалы |
 |-| ---- | -----| --------- |
 |1| 15.01.2025| Введение в городскую метеорологию и климатологию |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture01%20slides.pdf)|
-|2| 22.01.2025| Мониторинг городского климат |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture02%20slides.pdf)</br>[Ноутбук (загрузка и чтение данных с сайта "Погода и климат")](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect02_load_weaclim_example.ipynb)|
+|2| 22.01.2025| Мониторинг городского климата |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture02%20slides.pdf)</br>[Ноутбук (загрузка и чтение данных с сайта "Погода и климат")](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect02_load_weaclim_example.ipynb)|
 |3| 29.01.2025| Технические средства анализа данных |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture03%20slides.pdf)</br>[Ноутбук (основы Python)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_python_demo.ipynb)</br>[Ноутбук (основы pandas)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_pandas_demo.ipynb)</br>[Ноутбук (работа в Google Colab)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect03_Colab_demo.ipynb)</br>[Видеозапись](https://disk.yandex.ru/i/jtVYuYzs40NazA)|
 |4| 04.02.2025| Современные подходы к моделированию погоды и климата|[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture04%20slides.pdf)</br>  [Ноутбук (реанализ и xarray)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect04_xarray_demo.ipynb)
 |5| 12.02.2025| Виды моделей городского климата|[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture05%20slides.pdf)</br>  [Данные для хакатона](https://disk.yandex.ru/d/xf6FrJt5YAPHoA)
 |6| 19.02.2025| Пространственные данные для моделирования городского климата|[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture06%20slides.pdf)</br>  [Ноутбук (работа с OSM)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect06_example_OSM.ipynb)</br>  [Ноутбук (работа с картой ЛКЗ)](https://github.com/mvarentsov/UClim4HSE-2025/blob/mTin/scripts/Lect06_example_LCZ.ipynb)
 |7| 26.02.2025| Работа с моделью городского полога |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture07%20slides.pdf)</br>  [Ноутбук (запуск TEB)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_run_TEB.ipynb)</br>  [Ноутбук (подготовка форсинга)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_ERA5_to_TEB.ipynb)
+|8| 27.02.2025| Микромасштабное моделирование | [Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture08%20slides.pdf)
+
 
 
 
@@ -37,6 +39,7 @@
 |4|Эссе|Анализ публикации по моделированию городского климата| 19.02.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW4.md) |
 |5|Практическая работа|Aнализ пространственных данных о городской среде| 05.03.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW5.md)</br>[Ноутбук (работа с OSM)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect06_example_OSM.ipynb)</br>  [Ноутбук (работа с картой ЛКЗ)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect06_example_LCZ.ipynb)|
 |6|Практическая работа|Работа с моделью городского полога| 12.03.2025 | [Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW6.md)</br>[Ноутбук (запуск TEB)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_run_TEB.ipynb)</br>  [Ноутбук (подготовка форсинга)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_ERA5_to_TEB.ipynb)|
+|7|Практическая работа| Микромасштабное моделирование с ENVI-met |13.03.2025|[Описание](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/homeworks/HW7.md)
 
 
 ## Рекомендуемая литература
