@@ -1,3 +1,4 @@
 
 /scripts/__pycache__
 *.json
+scripts/ERA5_demo_data/Moscow 2022.nc
