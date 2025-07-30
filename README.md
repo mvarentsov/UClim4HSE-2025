@@ -23,7 +23,7 @@
 |7| 26.02.2025| Работа с моделью городского полога |[Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture07%20slides.pdf)</br>  [Ноутбук (запуск TEB)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_run_TEB.ipynb)</br>  [Ноутбук (подготовка форсинга)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect07_ERA5_to_TEB.ipynb)
 |8| 05.03.2025| Микромасштабное моделирование | [Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture08%20slides.pdf)</br>[Презентация (работа с Envi-met)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture08%20slides_AK.pdf)
 |9| 12.03.2025| Комфортность городского климата | [Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture09%20slides.pdf)</br>[Ноутбук (работа с biometeo)](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/scripts/Lect09_example_biometeo.ipynb)
-
+|10| 19.03.2025| Машинное обучение в городской метеорологии | [Презентация](https://github.com/mvarentsov/UClim4HSE-2025/blob/main/presentations/Lecture10%20slides.pdf)</br>
 
 
 
